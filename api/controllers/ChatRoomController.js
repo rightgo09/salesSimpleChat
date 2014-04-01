@@ -16,28 +16,20 @@
  */
 
 module.exports = {
-    
-  
   /**
    * Action blueprints:
    *    `/chatroom/room`
    */
-   room: function (req, res) {
-    
+  room: function (req, res) {
     // Send a JSON response
     return res.json({
       hello: 'world'
     });
   },
 
-
-
-
   /**
    * Overrides for the settings in `config/controllers.js`
    * (specific to ChatRoomController)
    */
   _config: {}
-
-  
 };
